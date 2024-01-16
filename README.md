@@ -35,8 +35,3 @@ If you'd like to contribute to the project, please follow these steps:
 
 This project is licensed under the [Unlicense](https://unlicense.org/). See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-- Special thanks to the contributors and developers involved in the project.
-
-Feel free to modify this README to better suit your project's details and requirements. Add or remove sections as needed.
