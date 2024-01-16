@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./hod-interface.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="hod-interface">
+      <div class="hod-interface-child"></div>
+      <div class="header-interface">
+        <div class="rectangle-group">
+          <div class="rectangle-div"></div>
+          <div class="frame-parent3">
+            <div class="logo-icon-container">
+              <img class="logo-icon4" loading="eager" alt="" />
+            </div>
+            <div class="tld-management-system">TLD Management System</div>
+          </div>
+          <div class="profile-directory-dashboard">
+            <div class="profile3" id="profileText">Profile</div>
+            <div class="director-dashboard2">Director Dashboard</div>
+          </div>
+          <div class="import-export">
+            <div class="import-container">
+              <div class="import2" id="importText">Import</div>
+              <div class="export2" id="exportText">Export</div>
+            </div>
+          </div>
+        </div>
+        <div class="header-interface-child"></div>
+      </div>
+      <section class="hod-interface-inner">
+        <div class="daily-report-frame-parent">
+          <div class="daily-report-frame">
+            <div class="daily-hod-report-summary-month-parent">
+              <textarea
+                class="daily-hod-report-summary-month"
+                placeholder="Daily HOD Report"
+                rows="{5}"
+                cols="{18}"
+              >
+              </textarea>
+              <textarea
+                class="daily-hod-report-summary-month1"
+                placeholder="Summary Month wise Report"
+                rows="{5}"
+                cols="{18}"
+              >
+              </textarea>
+            </div>
+          </div>
+          <div class="line-parent">
+            <div class="line-div"></div>
+            <div class="online-marks">
+              <div class="faculty">
+                <div class="faculty1">Faculty</div>
+                <textarea
+                  class="faculty-child"
+                  placeholder="Online Marks"
+                  rows="{5}"
+                  cols="{18}"
+                >
+                </textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var profileText = document.getElementById("profileText");
+      if (profileText) {
+        profileText.addEventListener("click", function (e) {
+          window.location.href = "./admin-profile.html";
+        });
+      }
+      
+      var importText = document.getElementById("importText");
+      if (importText) {
+        importText.addEventListener("click", function (e) {
+          window.location.href = "./hod-interface.html";
+        });
+      }
+      
+      var exportText = document.getElementById("exportText");
+      if (exportText) {
+        exportText.addEventListener("click", function (e) {
+          window.location.href = "./student-interface.html";
+        });
+      }
+      </script>
+  </body>
+</html>

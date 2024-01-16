@@ -1,0 +1,310 @@
+.uni-logo-removebg-preview-1-icon {
+  position: relative;
+  width: 175px;
+  height: 181px;
+  object-fit: cover;
+}
+.line-icon {
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  width: 2px;
+  object-fit: contain;
+}
+.vector-wrapper {
+  height: 153px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+}
+.span {
+  font-size: 36px;
+}
+.datta-meghe1 {
+  letter-spacing: 0.03em;
+}
+.datta-meghe {
+  margin-block-start: 0;
+  margin-block-end: 3px;
+  font-size: 38px;
+}
+.blank-line,
+.education-and-research,
+.institute-of-higher {
+  margin-block-start: 0;
+  margin-block-end: 3px;
+  letter-spacing: 0.02em;
+}
+.deemed-to-be {
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+.datta-meghe-institute-container {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  height: 135px;
+  min-width: 268px;
+  max-width: 100%;
+}
+.uni-logo-removebg-preview-1-parent {
+  width: 740px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.remove-b-g-preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+.feat-logo-removebg-preview-1-icon {
+  position: absolute;
+  height: calc(100% - 29.2px);
+  top: 14.6px;
+  bottom: 14.6px;
+  left: 16.2px;
+  max-height: 100%;
+  width: 160.6px;
+  object-fit: cover;
+  z-index: 1;
+}
+.rounded-rect {
+  flex: 1;
+  position: relative;
+  height: 193px;
+}
+.rounded-rect-wrapper {
+  width: 193px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.frame {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 56px;
+  background-color: rgba(0, 0, 0, 0.61);
+}
+.login6,
+.user {
+  position: relative;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.login6 {
+  font-size: var(--font-size-16xl-8);
+  width: 120px;
+  height: 51px;
+  flex-shrink: 0;
+}
+.user {
+  font-size: 21.1px;
+  height: 30px;
+}
+.input-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+}
+.group1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  border-radius: var(--br-16xl);
+  height: 58px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-mini) var(--padding-11xl) var(--padding-sm);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl-2);
+  color: var(--color-black);
+  min-width: 227px;
+  z-index: 1;
+}
+.f-r-a-m-e-p-a-s-s-w-o-r-d,
+.group1,
+.group2,
+.input-box-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.group2 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  border-radius: var(--br-16xl);
+  height: 57px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-sm) var(--padding-12xl);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl-2);
+  color: var(--color-black);
+  min-width: 227px;
+  z-index: 1;
+}
+.f-r-a-m-e-p-a-s-s-w-o-r-d,
+.input-box-parent {
+  flex-direction: column;
+}
+.f-r-a-m-e-p-a-s-s-w-o-r-d {
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 29px;
+}
+.input-box-parent {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-34xl);
+}
+.login-button {
+  align-self: stretch;
+  position: relative;
+  border-radius: 27.15px;
+  background-color: var(--color-gainsboro);
+  width: 203px;
+  cursor: pointer;
+}
+.login7 {
+  position: relative;
+  font-size: var(--font-size-xl-2);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  opacity: 0.55;
+  mix-blend-mode: normal;
+  z-index: 1;
+  margin-left: -126px;
+}
+.rectangle {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 203px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.frame1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 224px;
+  left: 196px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 90px;
+  height: 1px;
+  z-index: 1;
+}
+.frame-form,
+.group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-form {
+  flex: 1;
+  padding: var(--padding-86xl) var(--padding-33xl) 124px;
+  position: relative;
+  gap: 41px;
+  margin: -85px 0 0;
+}
+.group {
+  width: 484px;
+  max-width: 100%;
+}
+.group-wrapper,
+.login5 {
+  display: flex;
+  align-items: flex-start;
+}
+.group-wrapper {
+  width: 918px;
+  height: 782px;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.login5 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 23px 62px;
+  box-sizing: border-box;
+  gap: 64px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-times-new-roman);
+}
+@media screen and (max-width: 750px) {
+  .login6 {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .frame-form {
+    gap: 20px;
+    padding: var(--padding-86xl) var(--padding-7xl) 81px;
+    box-sizing: border-box;
+  }
+  .login5 {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .datta-meghe-institute-container {
+    font-size: 18px;
+  }
+  .login6 {
+    font-size: var(--font-size-2xl);
+  }
+  .user {
+    font-size: 17px;
+  }
+  .input-box-parent {
+    gap: var(--gap-7xl);
+  }
+}

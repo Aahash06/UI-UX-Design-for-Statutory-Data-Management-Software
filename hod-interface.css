@@ -1,0 +1,314 @@
+.hod-interface-child,
+.rectangle-div {
+  position: relative;
+  height: 1117px;
+  display: none;
+  max-width: 100%;
+}
+.hod-interface-child {
+  background-color: var(--color-gray-100);
+  backdrop-filter: blur(34px);
+  width: 1728px;
+}
+.rectangle-div {
+  border-radius: var(--br-16xl);
+  background-color: var(--color-darkslateblue-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 385px;
+}
+.logo-icon4 {
+  position: relative;
+  border-radius: 50%;
+  width: 152px;
+  height: 152px;
+  object-fit: cover;
+  z-index: 3;
+}
+.logo-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+}
+.tld-management-system {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 55px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frame-parent3 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  font-size: var(--font-size-16xl-8);
+}
+.director-dashboard2,
+.profile3 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.profile3 {
+  height: 38px;
+  cursor: pointer;
+}
+.director-dashboard2 {
+  align-self: stretch;
+  height: 38.4px;
+}
+.profile-directory-dashboard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.export2,
+.import2 {
+  position: relative;
+  display: inline-block;
+  height: 38px;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.import-container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-17xl);
+}
+.import-container,
+.import-export,
+.rectangle-group {
+  display: flex;
+  justify-content: flex-start;
+}
+.import-export {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangle-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-darkslateblue-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-13xl) var(--padding-24xl) var(--padding-471xl)
+    var(--padding-84xl);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.header-interface-child {
+  position: absolute;
+  top: 32px;
+  left: 141px;
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+  width: 152px;
+  height: 152px;
+  display: none;
+  z-index: 2;
+}
+.header-interface {
+  position: relative;
+  width: 385px;
+  height: 1117px;
+  max-width: 100%;
+}
+.daily-hod-report-summary-month,
+.daily-hod-report-summary-month1 {
+  border: 0;
+  background-color: var(--color-darkslateblue-200);
+  height: 107px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  border-radius: var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-9xl);
+  box-sizing: border-box;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  z-index: 1;
+}
+.daily-hod-report-summary-month-parent,
+.daily-report-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.daily-hod-report-summary-month-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+}
+.daily-report-frame {
+  width: 381px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.line-div {
+  align-self: stretch;
+  position: relative;
+  border-top: 2px solid var(--color-black);
+  box-sizing: border-box;
+  height: 2px;
+  z-index: 1;
+}
+.faculty1 {
+  position: relative;
+  display: inline-block;
+  width: 178.4px;
+  height: 88px;
+  flex-shrink: 0;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.faculty-child {
+  border: 0;
+  background-color: var(--color-darkslateblue-200);
+  height: 107px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  border-radius: var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-9xl);
+  box-sizing: border-box;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  z-index: 1;
+  margin-top: -20px;
+}
+.faculty {
+  flex: 1;
+  flex-direction: column;
+}
+.daily-report-frame-parent,
+.faculty,
+.line-parent,
+.online-marks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.online-marks {
+  width: 381px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.daily-report-frame-parent,
+.line-parent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.line-parent {
+  gap: 9px;
+}
+.daily-report-frame-parent {
+  gap: var(--gap-34xl);
+}
+.hod-interface,
+.hod-interface-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.hod-interface-inner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-33xl) 0 0;
+  box-sizing: border-box;
+  min-width: 861px;
+  max-width: 100%;
+  font-size: 41.6px;
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+.hod-interface {
+  position: relative;
+  background-color: var(--color-gray-100);
+  backdrop-filter: blur(34px);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-5xl);
+  letter-spacing: normal;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .daily-report-frame-parent {
+    gap: var(--gap-7xl);
+  }
+  .hod-interface-inner {
+    padding-top: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .tld-management-system {
+    font-size: var(--font-size-2xl);
+  }
+  .director-dashboard2,
+  .export2,
+  .import2,
+  .profile3 {
+    font-size: var(--font-size-xl);
+  }
+  .rectangle-group {
+    gap: var(--gap-lg);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .daily-hod-report-summary-month-parent {
+    gap: var(--gap-mid);
+  }
+  .faculty1 {
+    font-size: var(--font-size-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .tld-management-system {
+    font-size: var(--font-size-10xl);
+  }
+  .faculty1 {
+    font-size: 33px;
+  }
+  .hod-interface-inner {
+    min-width: 100%;
+  }
+}

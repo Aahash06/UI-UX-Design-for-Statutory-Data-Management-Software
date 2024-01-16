@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./student-interface.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="student-interface">
+      <div class="student-interface-child"></div>
+      <div class="frame-parent">
+        <div class="rectangle-parent">
+          <div class="frame-child"></div>
+          <div class="frame-wrapper">
+            <div class="frame-group">
+              <div class="logo-icon-wrapper">
+                <img class="logo-icon3" loading="eager" alt="" />
+              </div>
+              <div class="tld1">TLD</div>
+            </div>
+          </div>
+          <div class="frame-container">
+            <div class="profile-parent">
+              <div class="profile2" id="profileText">Profile</div>
+              <div class="director-dashboard1" id="directorDashboardText">
+                Director Dashboard
+              </div>
+            </div>
+          </div>
+          <div class="frame-div">
+            <div class="import-group">
+              <div class="import1" id="importText">Import</div>
+              <div class="export1">Export</div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-item"></div>
+      </div>
+      <div class="student-interface-inner">
+        <div class="frame-parent1">
+          <div class="frame-parent2">
+            <input
+              class="frame-inner"
+              placeholder="Students Attendance Register"
+              type="text"
+            />
+
+            <textarea
+              class="frame-textarea"
+              placeholder="Daily Students Attendance "
+              rows="{5}"
+              cols="{18}"
+            >
+            </textarea>
+          </div>
+          <textarea
+            class="frame-child1"
+            placeholder="Students Lab Attendance "
+            rows="{5}"
+            cols="{18}"
+          >
+          </textarea>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var profileText = document.getElementById("profileText");
+      if (profileText) {
+        profileText.addEventListener("click", function (e) {
+          window.location.href = "./admin-profile.html";
+        });
+      }
+      
+      var directorDashboardText = document.getElementById("directorDashboardText");
+      if (directorDashboardText) {
+        directorDashboardText.addEventListener("click", function (e) {
+          window.location.href = "./admin-interface.html";
+        });
+      }
+      
+      var importText = document.getElementById("importText");
+      if (importText) {
+        importText.addEventListener("click", function (e) {
+          window.location.href = "./hod-interface.html";
+        });
+      }
+      </script>
+  </body>
+</html>

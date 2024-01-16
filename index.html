@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="admin-profile">
+      <div class="frame-a">
+        <div class="frame-a-child"></div>
+        <div class="frame-b">
+          <div class="frame-b-child"></div>
+          <div class="logo-icon-frame">
+            <div class="admin-profile-frame">
+              <img class="logo-icon" loading="eager" alt="" />
+            </div>
+            <div class="aahash-kamble">Aahash Kamble</div>
+          </div>
+          <div class="profile-frame">
+            <div class="import-export-frames">
+              <div class="profile">Profile</div>
+              <div class="director-dashboard" id="directorDashboardText">
+                Director Dashboard
+              </div>
+            </div>
+          </div>
+          <div class="profile-frame1">
+            <div class="import-parent">
+              <div class="import" id="importText">Import</div>
+              <div class="export" id="exportText">Export</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="login-text">
+        <div class="login">LOGIN</div>
+      </div>
+    </div>
+
+    <script>
+      var directorDashboardText = document.getElementById("directorDashboardText");
+      if (directorDashboardText) {
+        directorDashboardText.addEventListener("click", function (e) {
+          window.location.href = "./admin-interface.html";
+        });
+      }
+      
+      var importText = document.getElementById("importText");
+      if (importText) {
+        importText.addEventListener("click", function (e) {
+          window.location.href = "./hod-interface.html";
+        });
+      }
+      
+      var exportText = document.getElementById("exportText");
+      if (exportText) {
+        exportText.addEventListener("click", function (e) {
+          window.location.href = "./student-interface.html";
+        });
+      }
+      </script>
+  </body>
+</html>

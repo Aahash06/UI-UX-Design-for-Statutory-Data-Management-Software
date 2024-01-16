@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./student-profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="student-profile">
+      <div class="login-frame">
+        <div class="login-frame-child"></div>
+        <div class="frame-enter-info">
+          <div class="frame-enter-info-child"></div>
+          <div class="save-button">
+            <div class="logo-icon1">
+              <div class="top-level-domain-text">
+                <img class="logo-icon2" loading="eager" alt="" />
+              </div>
+              <div class="tld">TLD</div>
+            </div>
+          </div>
+          <div class="profile-frame2">
+            <div class="input-fields-frame">
+              <div class="profile1">Profile</div>
+              <div class="student" id="studentText">Student</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="email-id-input">
+        <div class="login1">LOGIN</div>
+      </div>
+      <div class="phone-no-input">
+        <form class="branch-input">
+          <div class="branch-input-child"></div>
+          <div class="frame-circle">
+            <div class="circular-icon"></div>
+          </div>
+          <div class="info-frame">
+            <input
+              class="multi-input-frame"
+              placeholder="Enter your name"
+              type="text"
+            />
+
+            <input
+              class="multi-input-frame1"
+              placeholder="Enter your email id"
+              type="text"
+            />
+
+            <input
+              class="multi-input-frame2"
+              placeholder="Enter your roll no."
+              type="text"
+            />
+
+            <input
+              class="multi-input-frame3"
+              placeholder="Phone no."
+              type="text"
+            />
+
+            <input
+              class="multi-input-frame4"
+              placeholder="Branch"
+              type="text"
+            />
+          </div>
+          <button class="save-text">
+            <div class="save-text-child"></div>
+            <div class="save">Save</div>
+          </button>
+          <img
+            class="img-load-box-fill-icon"
+            loading="eager"
+            alt=""
+            src="./public/img-load-box-fill@2x.png"
+          />
+        </form>
+      </div>
+    </div>
+
+    <script>
+      var studentText = document.getElementById("studentText");
+      if (studentText) {
+        studentText.addEventListener("click", function (e) {
+          window.location.href = "./student-interface2.html";
+        });
+      }
+      </script>
+  </body>
+</html>
