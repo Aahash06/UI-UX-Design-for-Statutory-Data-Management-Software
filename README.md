@@ -1,8 +1,58 @@
 # DMIHER QA Management System
 
 ## Introduction
+# Statutory Data Management Software - UI/UX Design
 
-DMIHER QA Management System is a web application that provides functionality for managing Quality Assurance processes in an educational institution. It is built using HTML, CSS, and JavaScript. The project also utilizes a SQL database for data storage.
+## Overview
+
+This repository houses the UI/UX design for a Statutory Data Management Software. The design focuses on creating an intuitive and visually appealing user interface to streamline the process of managing statutory data. Utilizing Figma, the design aims to provide a user-friendly experience for efficient data handling within the software.
+
+## Features
+
+### 1. Collaborative Design
+- The design is created collaboratively using Figma, allowing seamless collaboration among designers and stakeholders.
+- Team members can simultaneously work on the design, ensuring real-time updates and feedback incorporation.
+
+### 2. Intuitive User Interface
+- The UI is crafted to be intuitive, ensuring that users can easily navigate through the software without unnecessary complexity.
+- A clean and organized layout enhances user understanding, making the data management process straightforward.
+
+### 3. Visual Appeal
+- The design emphasizes visual appeal, creating an engaging and professional look for the software.
+- Thoughtful color schemes, typography, and iconography contribute to an aesthetically pleasing user interface.
+
+### 4. Streamlined Data Management
+- The UI/UX design is geared towards streamlining the statutory data management process.
+- Efficient workflows and logical information architecture enhance the overall user experience, reducing the time and effort required for data tasks.
+
+## How to View the Design
+
+To view the UI/UX design, you can follow these steps:
+
+1. **Open Figma:**
+   - Navigate to [Figma](https://www.figma.com/) and sign in with your account.
+
+2. **Access the Design File:**
+   - Open the design file by clicking on the provided link in the repository.
+
+3. **Explore the Design:**
+   - Navigate through the different screens and components to explore the UI/UX design.
+
+## Contributing
+
+If you wish to contribute to the UI/UX design or provide feedback, follow these steps:
+
+1. Fork the repository.
+2. Make your changes in Figma or provide feedback through GitHub issues.
+3. Submit a pull request to contribute your changes.
+
+## License
+
+This UI/UX design for the Statutory Data Management Software is provided under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+Feel free to adapt, modify, and share the design, giving appropriate credit to the original contributors.
+
+**Thank you for your interest and contribution!**
 
 ## Project Structure
 
